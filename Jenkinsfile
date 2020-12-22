@@ -4,10 +4,7 @@ pipeline
         registryCredential = 'hunterone3'
         dockerImage = ''
     }
-	options
-	{
-		timestamps()
-	}
+	
 	agent none
 	stages
 	{
